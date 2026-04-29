@@ -139,17 +139,6 @@ to start the update. Once the Phantom release is installed a restart is not requ
 </br>
 
 
-# Follow the project:
-
-[Follow the project on Youtube](https://www.youtube.com/@electricaldischarge)
-
-[Stay informed on Hackaday](https://hackaday.io/project/190371-g-edm)
-
-[Get involved on Discord](https://discord.gg/9cTsyDkEbe)
-
-</br>
-</br>
-
 
 # Donations
 
