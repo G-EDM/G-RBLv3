@@ -80,7 +80,7 @@ Will debug this soon and provide a fix. Pretty sure it is nothing big and should
 </br>
 </br>
 
-# PhantomEDM
+# About
 
 * Firmware for wire and sinker EDM machines build with the G-EDM EVO electronics.
 
