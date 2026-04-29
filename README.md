@@ -11,9 +11,6 @@ ___  _  _ ____ __ _ ___ ____ _  _
 
 v3.0.0
 
-This is a beta version for testing purposes.
-Only for personal use. Commercial use or redistribution without permission is prohibited. 
-Copyright (c) Roland Lautensack   
 ```                                                               
 
 </br>
