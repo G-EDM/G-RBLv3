@@ -372,7 +372,7 @@ void ARC_GENERATOR::change_pwm_duty( int duty ){
     }
 
     std::lock_guard<std::mutex> lock( arc_mtx );
-    if( !spark_generator_is_running_flag.load() && !lock_reference_voltage ){ 
+    if( get_pwm_is_off() ){ 
         duty = 0; // force LEDC to go low
     }
     ledc_set_duty( LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0, duty );
