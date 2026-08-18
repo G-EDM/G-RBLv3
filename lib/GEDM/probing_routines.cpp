@@ -118,7 +118,7 @@ bool G_EDM_PROBE_ROUTINES::do_probe( int axis, bool probe_negative, bool pulloff
         float tool_radius = 0.0;
         if( axis != axes_active.z.index ){ // compensate wire for XYUV; Z does not use horizontal compensation
             tool_radius = tool_diameter > 0.0 ? tool_diameter/2.0 : 0.0;
-            if( probe_negative ){ tool_radius *= -1; } // probe direction was negative and the radius needs to be substracted. 
+            if( !probe_negative ){ tool_radius *= -1; } // probe direction was negative and the radius needs to be substracted. 
                                                        // Radius is value that is added later to the position using +=. Making it negative will substract it later.
         }
         uint8_t axis_mask = api::create_xu_yv_axis_mask( axis ); // creates a bitmask with all involved axes that are chained together: XU YV
